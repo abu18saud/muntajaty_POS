@@ -23,6 +23,20 @@
   --artical-color-light:#f8f9fa;
   --artical-color-border:#e9ecef; }
 
+  @font-face {
+    font-family: 'Al-Aramco_';
+    src: url('../webfonts/Al-Aramco_.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'DroidKufi-Regular';
+    src: url('../webfonts/DroidKufi-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'GE_SS_Two_Bold';
+    src: url('../webfonts/GE_SS_Two_Bold.eot') format('embedded-opentype');
+}
 .dark {
   --artical-background-page: #1b1026;
   --artical-background-panel: #20132d;
@@ -151,16 +165,17 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+  --font-family-sans-serif: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
 
+  --font-family-monospace: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
+}
 *,
 *::before,
 *::after {
   box-sizing: border-box; }
 
 html {
-  font-family: sans-serif;
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
@@ -170,7 +185,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -268,7 +283,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   font-size: 1em; }
 
 pre {
@@ -318,7 +333,7 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   font-size: inherit;
   line-height: inherit; }
 
@@ -4388,7 +4403,7 @@ a.close.disabled {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4473,7 +4488,7 @@ a.close.disabled {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -13132,7 +13147,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     .pos-header .clock-main .datetime-content:last-child {
       padding-right: 0; }
   .pos-header .clock-main #Date {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
     font-size: 16px;
     text-align: center;
     margin: 0;
@@ -13149,7 +13164,7 @@ table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.
     display: inline;
     font-size: 18px;
     text-align: center;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
     line-height: normal; }
   .pos-header .clock-main #point {
     position: relative;
@@ -13546,7 +13561,7 @@ html, body {
   padding: 0px;
   font-size: 13px !important;
   font-weight: 400;
-  font-family: Poppins, Helvetica, "sans-serif";
+  font-family: 'Al-Aramco_', 'DroidKufi-Regular','GE_SS_Two_Bold';
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -14737,7 +14752,7 @@ input[type=checkbox].radio-warning:checked + .custom-control-label:before, input
   height: 7em;
   font-size: 0.75em;
   line-height: 1.333333em;
-  font-family: Consolas, monospace;
+  font-family: Consolas, monospace; /* ممكن تحتاج تغير لاحقاً */
   padding: 5px;
   box-sizing: border-box;
   -moz-box-sizing: border-box; }
