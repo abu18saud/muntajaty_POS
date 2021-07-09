@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets",
     "\\assets\\css",
     "\\assets\\scss",
     "\\assets\\scss\\layout"
   ],
-  "SelectedNode": "\\login.html",
+  "SelectedNode": "\\pos.html",
   "PreviewInSolutionExplorer": false
 }
