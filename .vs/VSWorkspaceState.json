@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\assets\\css",
-    "\\assets\\scss",
-    "\\assets\\scss\\layout"
+    "\\assets"
   ],
-  "SelectedNode": "\\pos.html",
+  "SelectedNode": "\\emailTemplate.html",
   "PreviewInSolutionExplorer": false
 }
